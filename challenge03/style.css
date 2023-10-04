@@ -1,0 +1,122 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+.top{
+    margin-left: 5rem;
+}
+
+
+.container{
+    padding: 10% 8%;
+    margin-bottom: 3rem;
+}
+.contStyle{
+    background-color: #23424A;
+    color: white;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+}
+.title{
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+}
+.para{
+    font-size: 1rem;
+    opacity: 85%;
+    line-height: 3ch;
+    padding-bottom: 3rem;
+}
+.button{
+    background: #38CFD9;
+    font-size: 1rem;    
+    font-weight: 550;
+    text-align: center;
+    width: 13rem;
+    padding: 1rem;
+    border-radius: 30px;
+}
+.button > a{
+    text-decoration: none;
+    color: #072A2D;
+
+}
+.content{
+    max-width: 700px;
+}
+.row{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    padding: 3rem 3rem;
+    gap: 20px;
+    font-size: 1.2rem;
+    opacity: 85%;
+    background-color: #136C72;
+    color: white;
+}
+
+.col > p{
+    text-align: center;
+    line-height: 2rem;
+    margin-bottom: 2rem;
+}
+
+.col-title{
+    font-size: 2rem;
+    font-weight: bold;
+    opacity: 100%;
+}
+.bottom{
+    background-color: #136C72;
+    color: white;
+    padding: 2rem 5rem;
+}
+.nb-title{
+    color: #136C72;
+}
+.newBottom  p{
+    margin-top: 1.5rem;
+    line-height: 2rem;
+    font-size: 1.2rem;
+}
+.newBottom{
+    margin-top: 0;
+    padding-top: 0rem;
+}
+.bt{
+    color: white;
+}
+.nav_container{
+    background-color: #136C72;
+    color: white;
+    padding: 2rem;
+    width: 100%;
+    padding-left: 7rem;
+}
+.nav-list{
+    display: flex;
+    align-items: baseline;
+    justify-content: flex-start;
+    gap: 3rem;
+    width: 100%;
+    list-style: none;
+    font-size: 1.25rem;
+
+}
+.spl-btn{
+    background-color: white;
+    color: #136C72;
+    padding: 0.5rem 1.5rem;
+    border-radius: 100px ;
+}
+img{
+    max-width: 100%;
+}
